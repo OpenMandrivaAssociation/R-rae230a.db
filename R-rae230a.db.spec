@@ -11,12 +11,9 @@ URL:              http://bioconductor.org/packages/release/data/annotation/html/
 Source0:          http://bioconductor.org/packages/release/data/annotation/src/contrib/%{packname}_%{version}.tar.gz
 BuildArch:        noarch
 Requires:         R-core
-Requires:         R-methods R-AnnotationDbi R-org.Rn.eg.db 
-Requires:         R-methods R-AnnotationDbi 
-Requires:         R-annotate 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-methods R-AnnotationDbi R-org.Rn.eg.db
-BuildRequires:    R-methods R-AnnotationDbi 
-BuildRequires:    R-annotate 
+Requires:         R-methods R-AnnotationDbi R-org.Rn.eg.db R-annotate
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex
+BuildRequires:    R-methods R-AnnotationDbi R-org.Rn.eg.db R-annotate
 
 %description
 Affymetrix Rat Expression Set 230 annotation data (chip rae230a) assembled
