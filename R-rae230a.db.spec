@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          2.6.3
-Release:          1
+Release:          2
 Summary:          Affymetrix Rat Expression Set 230 annotation data (chip rae230a)
 Group:            Sciences/Mathematics
 License:          Artistic-2.0
