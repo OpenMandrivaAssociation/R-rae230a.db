@@ -2,13 +2,13 @@
 %global rlibdir  %{_datadir}/R/library
 
 Name:             R-%{packname}
-Version:          2.6.3
-Release:          2
+Version:          2.9.0
+Release:          1
 Summary:          Affymetrix Rat Expression Set 230 annotation data (chip rae230a)
 Group:            Sciences/Mathematics
 License:          Artistic-2.0
 URL:              http://bioconductor.org/packages/release/data/annotation/html/%{packname}.html
-Source0:          http://bioconductor.org/packages/release/data/annotation/src/contrib/%{packname}_%{version}.tar.gz
+Source0:          http://bioconductor.org/packages/release/data/annotation/src/contrib/rae230a.db_2.9.0.tar.gz
 BuildArch:        noarch
 Requires:         R-core
 Requires:         R-methods R-AnnotationDbi R-org.Rn.eg.db R-annotate
@@ -43,3 +43,4 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/R
 %{rlibdir}/%{packname}/extdata
 %{rlibdir}/%{packname}/help
+
